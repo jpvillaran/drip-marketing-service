@@ -1,3 +1,4 @@
+FROM jpvillaran/ubuntu-nodejs
 
 # Create App directory
 RUN mkdir -p /usr/src/app
