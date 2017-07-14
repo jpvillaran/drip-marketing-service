@@ -1,0 +1,19 @@
+{
+  "name": "drip-marketing-ms",
+  "version": "1.0.0",
+  "description": "Microservice for Zenergyst Drip Marketing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JP Villaran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "seneca": "^3.4.1",
+    "seneca-entity": "^2.0.2",
+    "seneca-web": "^2.1.0",
+    "seneca-web-adapter-express": "^1.0.2"
+  }
+}
