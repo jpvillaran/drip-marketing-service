@@ -9,7 +9,7 @@ module.exports = function math ( options ) {
   // })
   //
   function sum(msg, respond) {
-    var out = { answer: Number(msg.left).valueOf() + Number(msg.right).valueOf() };
+    var out = { answer: Number(msg.left).valueOf() + Number(msg.right).valueOf() + 1000 };
     console.log('acted sum');
     respond(null, out)
   }
