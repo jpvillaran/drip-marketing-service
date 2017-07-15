@@ -11,4 +11,5 @@ RUN npm install
 
 COPY . /usr/src/app
 
-CMD [ "node index.js" ]
+RUN node index.js
+
